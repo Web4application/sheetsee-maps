@@ -76,6 +76,19 @@ This method will generate a map for you on the page (it also generates the geoJS
   - `template` HTML/[Mustache](https://mustache.github.io) template for popups
   - `cluster` a true/false boolean, do you want your markers clustered
   - `hexcolor` pick one color for your markers
+```js
+{
+  "type": "Feature",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [125.6, 10.1]
+  },
+  "properties": {
+    "name": "Dinagat Islands"
+  }
+}
+```
+
 
 ```js
 var mapOptions = {
